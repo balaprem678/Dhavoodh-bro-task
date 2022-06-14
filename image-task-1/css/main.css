@@ -1,0 +1,22 @@
+.navi{
+  display: flex;
+   position: relative;
+   
+}
+.navi-1{
+  position: absolute;
+  display: flex;
+  font-size: 30px;
+}
+.brunch{
+  
+  color: #fff;
+}
+.nav{
+
+
+}
+.nav a{
+  color: #fff;
+  text-decoration: none;
+}
