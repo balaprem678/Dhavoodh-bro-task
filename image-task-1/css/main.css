@@ -2,12 +2,17 @@ body {
   /* background-image: url("../images/Task_Image.jpg");
   opacity: 60%; */
   background-repeat: no-repeat;
+  overflow-x: hidden;
+  
+}
+.fullproject{
+  margin: 0 35px;
 }
 .navi {
   display: flex;
   position: relative;
 }
-.navi img{
+.navi img {
   width: 1430px;
 }
 .navi-1 {
@@ -30,220 +35,273 @@ body {
   text-decoration: none;
   margin-right: 15px;
 }
-.overlay{
+.overlay {
   position: absolute;
   text-align: center;
   top: 260px;
   left: 342px;
   font-size: 36px;
 }
-.overlay-1{
+.overlay-1 {
   background-color: #ffffff24;
-    padding: 260px 0 70px 280px;
+  padding: 260px 0 70px 280px;
 }
-.overlay-1 h1{
+.overlay-1 h1 {
   position: relative;
-    bottom: 175px;
-    font-size: 90px;
-    right: 135px;
+  bottom: 175px;
+  font-size: 90px;
+  right: 135px;
 }
-.overlay-1 h5{
+.overlay-1 h5 {
   position: relative;
-    font-size: 74px;
-    bottom: 110px;
-    right: 135px;
+  font-size: 74px;
+  bottom: 110px;
+  right: 135px;
 }
-.overlay-1 p{
+.overlay-1 p {
   background-color: #ffffffa8;
-    padding: 8px 20px;
-    bottom: 50px;
-    right: 135px;
-    margin: 0 144px;
-    position: relative;
+  padding: 8px 20px;
+  bottom: 50px;
+  right: 135px;
+  margin: 0 144px;
+  position: relative;
 }
-.traditional{
+.traditional {
   display: flex;
-    background-color: #2a3c40;
-    position: relative;
-    width: 1430px;
+  background-color: #2a3c40;
+  position: relative;
+  width: 1430px;
+  padding-top: 76px;
+    padding-bottom: 64px;
 }
-.trade-1{
+.trade-1 {
   width: 548px;
-    color: #fff; 
+  color: #fff;
 }
-.trade-1 h6{
+.trade-1 h6 {
   position: relative;
-    left: 91px;
-    top: 40px;
-    line-height: 32px;
-    font-size: 32px;
+  left: 91px;
+  top: 90px;
+  line-height: 32px;
+  font-size: 32px;
 }
-.trade-1 p{
+.trade-1 p {
   position: relative;
-    top: 80px;
+    top: 131px;
     left: 95px;
     font-size: 21px;
+    line-height: 30px;
 }
-.trade-img{
+.trade-img {
   position: relative;
-    left: 180px;
+  left: 180px;
 }
-.flex-card{
+.flex-card {
   background-color: #ccc;
-    width: 1430px;
-    height: 330px;
+  width: 1430px;
+  height: 330px;
+  padding-bottom: 42px;
 }
-.flexcard{
+.flexcard {
   display: flex;
-    position: relative;
-    top: 98px;
-    left: 174px;
-}
-.flex-card-1{
-
-}
-.flex-card-2{
   position: relative;
-    left: 82px;
+  top: 98px;
+  left: 184px;
 }
-.flex-card-3{
+.flex-card-1 {
+}
+.flex-card-2 {
   position: relative;
-    left: 163px;
+  left: 82px;
 }
-.flex-card-1 i{
+.flex-card-3 {
+  position: relative;
+  left: 163px;
+}
+.flex-card-1 i {
   font-size: 30px;
 }
-.flex-card-1 h6{
+.flex-card-1 h6 {
   font-size: 21px;
-    position: relative;
-    top: 15px;
+  position: relative;
+  top: 30px;
 }
-.flex-card-1 p{
+.flex-card-1 p {
   width: 313px;
-    font-size: 20px;
-    position: relative;
-    top: 43px;
+  font-size: 20px;
+  position: relative;
+  top: 54px;
+    line-height: 25px;
 }
-.flex-card-2 i{
+.flex-card-2 i {
   font-size: 30px;
 }
-.flex-card-2 h6{
+.flex-card-2 h6 {
   font-size: 21px;
-    position: relative;
-    top: 15px;
+  position: relative;
+  top: 30px;
 }
-.flex-card-2 p{
+.flex-card-2 p {
   width: 313px;
-    font-size: 20px;
-    position: relative;
-    top: 43px;
+  font-size: 20px;
+  position: relative;
+  top: 54px;
+    line-height: 25px;
 }
-.flex-card-3 i{
+.flex-card-3 i {
   font-size: 30px;
 }
-.flex-card-3 h6{
+.flex-card-3 h6 {
   font-size: 21px;
-    position: relative;
-    top: 15px;
+  position: relative;
+  top: 30px;
 }
-.flex-card-3 p{
+.flex-card-3 p {
   width: 313px;
-    font-size: 20px;
-    position: relative;
-    top: 43px;
+  font-size: 20px;
+  position: relative;
+  top: 54px;
+    line-height: 25px;
 }
 
-.cardtext{
+.cardtext {
   background-image: url("../images/9.jpg");
   background-repeat: no-repeat;
   position: relative;
   width: 1430px;
-  height: 1130px;
+  height: 1215px;
   text-align: center;
 }
-.card_text_91 h3{
+.card_text_91 h3 {
   font-size: 30px;
-    padding: 20px 0 0 0;
+  padding: 20px 0 0 0;
 }
-.card_text_91 h4{
+.card_text_91 h4 {
   text-align: center;
   color: #cb5c01;
   font-size: 30px;
-    padding: 20px 0 20px 0;
+  padding: 20px 0 20px 0;
 }
-.card91{
+.card91 {
   width: 1380px;
 }
-.card-text{
-
+.card-text {
 }
-.card_text_91{
+.card_text_91 {
   background-color: #ffffff5e;
   position: relative;
   width: 1104px;
   top: 100px;
   left: 150px;
 }
-.cardtext-1{
+.cardtext-1 {
   display: flex;
 }
-.cardtext-1 img{
+.cardtext-1 img {
   width: 20%;
 }
-.cardtextpara-1{
+.cardtextpara-1 {
   width: 20%;
 }
 
-.cardtextpara-1 h5{
+.cardtextpara-1 h5 {
   font-size: 20px;
   padding: 40px 0 0 0;
 }
-.cardtextpara-1 p{
+.cardtextpara-1 p {
   font-size: 25px;
-    padding: 30px 0 30px 0;
+  padding: 30px 0 30px 0;
 }
-.cardtextpara-1 span{
+.cardtextpara-1 span {
   font-size: 30px;
 }
-.cardtext-2{
+.cardtext-2 {
   display: flex;
 }
-.cardtext-2 img{
+.cardtext-2 img {
   width: 20%;
 }
-.cardtextpara-2{
+.cardtextpara-2 {
   width: 20%;
 }
 
-.cardtextpara-2 h5{
+.cardtextpara-2 h5 {
   font-size: 20px;
   padding: 40px 0 0 0;
 }
-.cardtextpara-2 p{
+.cardtextpara-2 p {
   font-size: 25px;
-    padding: 30px 0 30px 0;
+  padding: 30px 0 30px 0;
 }
-.cardtextpara-2 span{
+.cardtextpara-2 span {
   font-size: 30px;
 }
-.cardtext-3{
+.cardtext-3 {
   display: flex;
 }
-.cardtext-3 img{
+.cardtext-3 img {
   width: 20%;
 }
-.cardtextpara-3{
+.cardtextpara-3 {
   width: 20%;
 }
 
-.cardtextpara-3 h5{
+.cardtextpara-3 h5 {
   font-size: 20px;
   padding: 40px 0 0 0;
 }
-.cardtextpara-3 p{
+.cardtextpara-3 p {
   font-size: 25px;
-    padding: 30px 0 30px 0;
+  padding: 30px 0 30px 0;
 }
-.cardtextpara-3 span{
+.cardtextpara-3 span {
   font-size: 30px;
+}
+.trad{
+  background-color: #ccc;
+    width: 1430px;
+    position: relative;
+}
+.trad-1{
+
+}
+.trad-12{
+
+}
+.tradecenter{
+  position: absolute;
+    top: 81px;
+    left: 348px;
+    text-align: center;
+    width: 742px;
+}
+.tradecenter h6{
+  font-size: 32px;
+}
+.tradecenter p{
+  font-size: 23px;
+    position: relative;
+    top: 30px;
+    line-height: 31px;
+    
+}
+.trad-li{
+  position: relative;
+    top: 70px;
+    font-size: 22px;
+}
+.trad-a{
+  position: relative;
+    top: 115px;
+    word-spacing: 56px;
+}           
+
+.trad-a a{
+  color: black;
+  text-decoration: none;
+}
+.trad-img-2 img{
+  position: absolute;
+    right: 0;
+    top: 0;
 }
